@@ -8,7 +8,7 @@ import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://teste123:123123123@cluster0.seowqeg.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('DADOS DE ACESSO MONGODB CLUSTER'),
     TasksModule,
   ],
   controllers: [AppController],
